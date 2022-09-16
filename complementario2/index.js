@@ -23,7 +23,7 @@ const productos = golosinas.concat(chocolates);
 let precioPublico =  productos.map(item => {
     return{
         Nombre: item.nombre,
-        precio: item.precio + item.precio * 0.40
+        precio: item.precio + item.precio * 0.40,
     }
 })
-console.log(precioPublico);
+alert(precioPublico);

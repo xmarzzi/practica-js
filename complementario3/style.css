@@ -1,0 +1,15 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(./img/arcor.jpg);
+    background-size:cover;
+}
+
+.container{
+    margin: 25vh;
+    display: flex;
+    background-color: #fff;
+    opacity: 0.8;
+    
+}
